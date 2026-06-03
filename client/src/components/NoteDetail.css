@@ -1,0 +1,93 @@
+/* NoteDetail Component Styles */
+
+.note-detail-container {
+  animation: slideIn 0.3s ease-in;
+}
+
+.btn-back {
+  background: #95a5a6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: background 0.2s;
+}
+
+.btn-back:hover {
+  background: #7f8c8d;
+}
+
+.note-detail {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-detail-header {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.note-detail-header h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.note-date {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+}
+
+.note-detail-content {
+  margin-bottom: 40px;
+}
+
+.note-detail-content p {
+  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note-detail-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.note-detail-actions button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  flex: 1;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .note-detail {
+    padding: 20px;
+  }
+
+  .note-detail-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .note-detail-actions {
+    flex-direction: column;
+  }
+}

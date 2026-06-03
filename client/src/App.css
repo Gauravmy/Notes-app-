@@ -1,0 +1,99 @@
+/* ================================
+   NOTES APP - MAIN STYLES
+   ================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  min-height: 600px;
+}
+
+/* ================================
+   HEADER
+   ================================ */
+
+.app-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 8px;
+}
+
+.app-header p {
+  font-size: 1em;
+  opacity: 0.9;
+}
+
+/* ================================
+   MAIN CONTENT
+   ================================ */
+
+.app-main {
+  padding: 30px;
+  min-height: 500px;
+}
+
+/* ================================
+   ERROR & SUCCESS MESSAGES
+   ================================ */
+
+.error-message {
+  background-color: #fee;
+  border-left: 4px solid #f99;
+  color: #c33;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.success-message {
+  background-color: #efe;
+  border: 2px solid #7f7;
+  color: #3c3;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .app-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .app-main {
+    margin: 10px auto;
+    padding: 0 10px;
+  }
+}
