@@ -360,10 +360,4 @@ When you're ready to level up:
 
 This project is open source and available for learning purposes.
 
-## 💬 Questions?
 
-This is a beginner-friendly project. Every line of code is simple and well-commented. Review the comments in each file to understand what's happening!
-
----
-
-**Built with ❤️ for learning full-stack development!**
